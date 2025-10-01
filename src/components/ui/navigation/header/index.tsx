@@ -1,4 +1,3 @@
-import React from "react";
 import TopBanner from "./TopBanner";
 import MainHeader from "./MainHeader";
 
