@@ -1,9 +1,11 @@
-import React from 'react'
+import type React from "react";
+import type { UIProps } from "../../types/common";
+import clsx from "clsx";
 
-const Container = () => {
+const Container: React.FC<UIProps> = ({ children, className }) => {
   return (
-    <div>Container</div>
-  )
-}
+    <div className={clsx("w-4/5 my-0 mx-auto", className)}>{children}</div>
+  );
+};
 
-export default Container
+export default Container;
