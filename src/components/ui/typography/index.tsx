@@ -5,7 +5,7 @@ import type { UIProps } from "../../../types/common";
 
 
 export const H1: React.FC<UIProps> = ({ children, className }) => (
-  <h1 className={clsx("font-poppins text-4xl font-bold leading-tight text-primary", className)}>
+  <h1 className={clsx("font-poppins ttext-4xl text-white md:text-4xl lg:text-5xl font-bold leading-tight text-balance", className)}>
     {children}
   </h1>
 );
