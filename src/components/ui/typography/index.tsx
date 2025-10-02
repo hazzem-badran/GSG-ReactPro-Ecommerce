@@ -11,7 +11,7 @@ export const H1: React.FC<UIProps> = ({ children, className }) => (
 );
 
 export const H2: React.FC<UIProps> = ({ children, className }) => (
-  <h2 className={clsx("font-poppins text-3xl font-semibold leading-snug text-primary", className)}>
+  <h2 className={clsx("font-poppins text-3xl md:text-4xl font-semibold leading-snug text-primary", className)}>
     {children}
   </h2>
 );
@@ -42,6 +42,12 @@ export const Body2: React.FC<UIProps> = ({ children, className }) => (
 
 export const Small: React.FC<UIProps> = ({ children, className }) => (
   <span className={clsx("font-poppins text-sm font-normal text-text1", className)}>
+    {children}
+  </span>
+);
+
+export const Caption: React.FC<UIProps> = ({ children, className }) => (
+  <span className={clsx("font-poppins text-xs text-text1", className)}>
     {children}
   </span>
 );
