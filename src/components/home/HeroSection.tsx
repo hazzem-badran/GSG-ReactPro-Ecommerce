@@ -1,6 +1,6 @@
 import Container from '../layout/Container'
 import Sidebar from '../ui/navigation/sidebar'
-import HeroBanner from './hero-banner'
+import HeroBanner from './HeroBanner'
 
 const HeroSection = () => {
   return (

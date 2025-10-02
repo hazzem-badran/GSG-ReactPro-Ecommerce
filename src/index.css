@@ -1,18 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: #1a1a1a;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
+@theme {
   /* 🌐 Base Colors */
   --color-bg: #ffffff;
   --color-black: #000000;
@@ -33,6 +21,20 @@
   --color-btn-2: #db4444;
   --color-btn-hover-1: #e07575;
   --color-btn-hover-2: #a0bce0;
+}
+
+:root {
+  font-family: "Poppins", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #1a1a1a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 body {
   min-width: 320px;
