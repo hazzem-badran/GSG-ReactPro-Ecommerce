@@ -1,5 +1,5 @@
-import { CATEGORIES } from "@/constants/constents";
 import DropDownRight from "@/assets/icons/drop-down-right.png";
+import { CATEGORIES } from "@/constants/categories";
 
 const Sidebar = () => {
   return (
