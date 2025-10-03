@@ -20,9 +20,9 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="w-[270px] h-[350px] flex flex-col rounded-xl border shadow-sm group overflow-hidden">
+    <div className="w-[270px] h-[350px] flex flex-col  group overflow-hidden">
       {/* Image Container */}
-      <div className="relative flex-1 bg-[#F5F5F5] flex items-center justify-center p-6">
+      <div className="relative flex-1 bg-[#ececec] flex items-center justify-center p-6">
         {/* Badges */}
         {product.discount && (
           <Badge variant="discount" value={`-${product.discount}%`} />
