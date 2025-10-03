@@ -6,11 +6,17 @@ type Props = {
   title: string;
   subTitle: string;
   children?: React.ReactNode;
+  className?: string;
 };
 
-const HeadingSection: React.FC<Props> = ({ title, subTitle, children }) => {
+const HeadingSection: React.FC<Props> = ({
+  title,
+  subTitle,
+  children,
+  className,
+}) => {
   return (
-    <>
+    <div className={className}>
       <div className="flex items-center gap-4 mb-4">
         <div className="w-5 h-10 bg-[#DB4444] rounded" />
         <span className="text-secondary2 font-semibold">{title}</span>
@@ -24,7 +30,7 @@ const HeadingSection: React.FC<Props> = ({ title, subTitle, children }) => {
 
         <ArrowControls />
       </div>
-    </>
+    </div>
   );
 };
 
