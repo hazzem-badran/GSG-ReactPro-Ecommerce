@@ -21,6 +21,10 @@
   --color-btn-2: #db4444;
   --color-btn-hover-1: #e07575;
   --color-btn-hover-2: #a0bce0;
+
+
+  /* Border */
+  --color-border: #0000004D;
 }
 
 :root {
