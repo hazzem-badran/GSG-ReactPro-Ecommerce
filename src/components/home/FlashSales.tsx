@@ -7,11 +7,11 @@ import Button from "../ui/buttons/Button";
 
 const FlashSales = () => {
   return (
-      <Container className=" mt-14.5 border-b-[0.5px] border-amber-950">
+      <Container className="mt-14.5 border-b-[0.5px] border-border">
         <HeadingSection
           title="Today's"
           subTitle="Flash Sales"
-          className="mb-22"
+          className="mb-10"
         >
           <CountdownTimer />
         </HeadingSection>

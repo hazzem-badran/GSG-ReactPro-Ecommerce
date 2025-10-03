@@ -1,7 +1,7 @@
 import Header from "@/components/ui/navigation/header";
-import Container from "@/components/layout/Container";
 import HeroSection from "@/components/home/HeroSection";
 import FlashSales from "@/components/home/FlashSales";
+import Categories from "@/components/home/Categories";
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <Header />
       <HeroSection />
       <FlashSales />
+      <Categories />
     </div>
   );
 };
