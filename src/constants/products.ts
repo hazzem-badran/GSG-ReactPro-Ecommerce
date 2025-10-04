@@ -8,6 +8,7 @@ export const PRODUCTS = [
       rating: 4.5,
       reviews: 88,
       image: "../../../assets/images/products/gamepad.png",
+      // isNew: false,
     },
     {
       id: 2,
