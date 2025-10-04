@@ -3,6 +3,7 @@ import HeroSection from "@/components/home/HeroSection";
 import FlashSales from "@/components/home/FlashSales";
 import Categories from "@/components/home/Categories";
 import BestSelling from "@/components/home/best-selling";
+import AdsBanner from "@/components/home/ads-banner";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <FlashSales />
       <Categories />
       <BestSelling />
+      <AdsBanner />
     </div>
   );
 };
