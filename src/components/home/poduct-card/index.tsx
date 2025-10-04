@@ -20,7 +20,7 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="w-[270px] h-[350px] flex flex-col  group overflow-hidden">
+    <div className="max-w-[270px] min-w-[240px] h-[350px] flex flex-col  group overflow-hidden">
       {/* Image Container */}
       <div className="relative flex-1 bg-[#ebebeb] flex items-center justify-center p-6">
         {/* Badges */}
