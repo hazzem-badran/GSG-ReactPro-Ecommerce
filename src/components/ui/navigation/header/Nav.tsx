@@ -1,5 +1,3 @@
-import React from "react";
-
 const Nav = () => {
   return (
     <nav className="hidden md:flex items-center md:gap-4 lg:gap-8 ">

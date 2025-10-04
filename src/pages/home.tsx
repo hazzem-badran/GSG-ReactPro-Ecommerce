@@ -7,6 +7,7 @@ import AdsBanner from "@/components/home/ads-banner";
 import ExploreProducts from "@/components/home/explore-products";
 import NewArrival from "@/components/home/new-arrival";
 import Services from "@/components/home/services";
+import { Footer } from "@/components/layout/Footer";
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
       <Categories />
       <BestSelling />
       <AdsBanner />
-      <ExploreProducts/>
+      <ExploreProducts />
       <NewArrival />
       <Services />
+      <Footer />
     </div>
   );
 };
