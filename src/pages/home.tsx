@@ -5,6 +5,7 @@ import Categories from "@/components/home/Categories";
 import BestSelling from "@/components/home/best-selling";
 import AdsBanner from "@/components/home/ads-banner";
 import ExploreProducts from "@/components/home/explore-products";
+import NewArrival from "@/components/home/new-arrival";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <BestSelling />
       <AdsBanner />
       <ExploreProducts/>
+      <NewArrival />
     </div>
   );
 };
