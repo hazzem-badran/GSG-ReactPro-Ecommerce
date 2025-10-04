@@ -5,7 +5,7 @@ import { ProductCard } from "./poduct-card";
 
 const BestSelling = () => {
   return (
-    <Container className="pb-17.5 border-b-[0.5px] border-border">
+    <Container className="pb-17.5">
       <HeadingSection
         title="This Month"
         subTitle="Best Selling Products"
