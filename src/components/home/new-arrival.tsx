@@ -1,6 +1,5 @@
 import Container from "../layout/Container";
 import HeadingSection from "../shard/HeadingSection";
-
 import PS5 from "@/assets/images/ps5.png";
 import Woman from "@/assets/images/attractive-woman-wearing-hat-posing-black.png";
 import Speakers from "@/assets/images/speakers.png";

@@ -6,6 +6,7 @@ import BestSelling from "@/components/home/best-selling";
 import AdsBanner from "@/components/home/ads-banner";
 import ExploreProducts from "@/components/home/explore-products";
 import NewArrival from "@/components/home/new-arrival";
+import Services from "@/components/home/services";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <AdsBanner />
       <ExploreProducts/>
       <NewArrival />
+      <Services />
     </div>
   );
 };
