@@ -13,7 +13,7 @@ const ExploreProducts = () => {
         className="mt-16.5 mb-10"
       />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 justify-items-center">
         {PRODUCTS.slice(0, 8).map((product) => (
           <div className="min-w-[250px] ">
             <ProductCard key={product.id} product={product} />

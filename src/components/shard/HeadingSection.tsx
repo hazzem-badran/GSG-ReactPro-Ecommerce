@@ -7,6 +7,7 @@ type Props = {
   subTitle: string;
   children?: React.ReactNode;
   className?: string;
+  hideArrow?: boolean;
 };
 
 const HeadingSection: React.FC<Props> = ({
@@ -14,6 +15,7 @@ const HeadingSection: React.FC<Props> = ({
   subTitle,
   children,
   className,
+  hideArrow = false,
 }) => {
   return (
     <div className={className}>
@@ -28,7 +30,7 @@ const HeadingSection: React.FC<Props> = ({
           {children}
         </div>
 
-        <ArrowControls />
+        {!hideArrow && <ArrowControls />}
       </div>
     </div>
   );
