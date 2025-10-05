@@ -1,4 +1,4 @@
-import Gamepad from "@/assets/images/products/gamepad.png";
+// import Gamepad from "@/assets/images/products/gamepad.png";
 import Badge from "@/components/Badge";
 import EYE from "@/assets/icons/eye.png";
 import Heart from "@/assets/icons/heart-small.png";
@@ -49,7 +49,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Product Image */}
         <img
-          src={Gamepad}
+          src={product.image}
           alt={product.name}
           className="max-h-[160px] w-auto object-contain"
         />
