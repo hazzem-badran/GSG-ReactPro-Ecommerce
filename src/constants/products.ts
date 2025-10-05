@@ -1,11 +1,22 @@
+// FLASH_SALES
 import gameHandImg from "@/assets/images/products/gamepad.png";
 import keyboardImg from "@/assets/images/products/keyboard.png";
 import monitorImg from "@/assets/images/products/monitor.png";
 import chairImg from "@/assets/images/products/chair.png";
+// BEST_SELLERS
 import Coat from "@/assets/images/products/coat.png";
 import DuffleBag from "@/assets/images/products/bag.png";
 import LiquidCooler from "@/assets/images/products/cooler.png";
 import BookSelf from "@/assets/images/products/book-self.png";
+// EXPLORE
+import dogFoodImg from "@/assets/images/products/dog-food-variety.png";
+import cameraImg from "@/assets/images/products/canon-dslr-camera.png";
+import laptopImg from "@/assets/images/products/asus-gaming-laptop.png";
+import skincareImg from "@/assets/images/products/curology-skincare.png";
+import electricCarImg from "@/assets/images/products/kids-electric-car.png";
+import soccerCleatsImg from "@/assets/images/products/soccer-cleats.png";
+import gamepadImg from "@/assets/images/products/usb-gamepad.png";
+import jacketImg from "@/assets/images/products/satin-jacket.png";
 
 export const FLASH_SALES = [
   {
@@ -122,8 +133,6 @@ export const BEST_SELLERS = [
     reviews: 75,
     image: DuffleBag,
     isNew: null,
-    
-
   },
   {
     id: 3,
@@ -146,6 +155,90 @@ export const BEST_SELLERS = [
     reviews: 99,
     image: BookSelf,
     isNew: null,
+  },
+];
+
+export const EXPLORE = [
+  {
+    id: 1,
+    name: "Breed Dry Dog Food",
+    price: 100,
+    rating: 3,
+    reviews: 35,
+    image: dogFoodImg,
+    discount:null,
+    isNew: null
+  },
+  {
+    id: 2,
+    name: "CANON EOS DSLR Camera",
+    price: 360,
+    rating: 4,
+    reviews: 95,
+    image: cameraImg,
+    discount:null,
+    isNew: null
+  },
+  {
+    id: 3,
+    name: "ASUS FHD Gaming Laptop",
+    price: 700,
+    rating: 5,
+    reviews: 325,
+    image: laptopImg,
+    discount:null,
+    isNew: null
+  },
+  {
+    id: 4,
+    name: "Curology Product Set",
+    price: 500,
+    rating: 4,
+    reviews: 145,
+    image: skincareImg,
+    discount:null,
+    isNew: null
+  },
+  {
+    id: 5,
+    name: "Kids Electric Car",
+    price: 960,
+    rating: 5,
+    reviews: 65,
+    image: electricCarImg,
+    isNew: true,
+    discount:null,
+  },
+  {
+    id: 6,
+    name: "Jr. Zoom Soccer Cleats",
+    price: 1160,
+    rating: 5,
+    reviews: 35,
+    image: soccerCleatsImg,
+    discount:null,
+    isNew: null
+  },
+  {
+    id: 7,
+    name: "GP11 Shooter USB Gamepad",
+    price: 660,
+    rating: 4.5,
+    reviews: 55,
+    image: gamepadImg,
+    isNew: false,
+    discount:null,
+    
+  },
+  {
+    id: 8,
+    name: "Quilted Satin Jacket",
+    price: 660,
+    rating: 4.5,
+    reviews: 55,
+    image: jacketImg,
+    isNew: false,
+    discount:null,
   },
 ];
 

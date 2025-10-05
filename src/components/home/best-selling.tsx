@@ -1,4 +1,4 @@
-import { BEST_SELLERS, PRODUCTS } from "@/constants/products";
+import { BEST_SELLERS } from "@/constants/products";
 import Container from "../layout/Container";
 import HeadingSection from "../shard/HeadingSection";
 import { ProductCard } from "./poduct-card";
