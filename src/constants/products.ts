@@ -2,7 +2,10 @@ import gameHandImg from "@/assets/images/products/gamepad.png";
 import keyboardImg from "@/assets/images/products/keyboard.png";
 import monitorImg from "@/assets/images/products/monitor.png";
 import chairImg from "@/assets/images/products/chair.png";
-
+import Coat from "@/assets/images/products/coat.png";
+import DuffleBag from "@/assets/images/products/bag.png";
+import LiquidCooler from "@/assets/images/products/cooler.png";
+import BookSelf from "@/assets/images/products/book-self.png";
 
 export const FLASH_SALES = [
   {
@@ -97,7 +100,54 @@ export const FLASH_SALES = [
     image: gameHandImg,
   },
 ];
+export const BEST_SELLERS = [
+  {
+    id: 1,
+    name: "The north coat",
+    price: 120,
+    originalPrice: 160,
+    discount: null,
+    rating: 4.5,
+    reviews: 88,
+    image: Coat,
+    isNew: null,
+  },
+  {
+    id: 2,
+    name: "Gucci duffle bag",
+    price: 960,
+    originalPrice: 1160,
+    discount: null,
+    rating: 4,
+    reviews: 75,
+    image: DuffleBag,
+    isNew: null,
+    
 
+  },
+  {
+    id: 3,
+    name: "RGB liquid CPU Cooler",
+    price: 370,
+    originalPrice: 400,
+    discount: null,
+    rating: 5,
+    reviews: 99,
+    image: LiquidCooler,
+    isNew: null,
+  },
+  {
+    id: 4,
+    name: "Small BookSelf",
+    price: 375,
+    originalPrice: 400,
+    discount: null,
+    rating: 4.5,
+    reviews: 99,
+    image: BookSelf,
+    isNew: null,
+  },
+];
 
 export const PRODUCTS = [
   {

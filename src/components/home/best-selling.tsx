@@ -1,4 +1,4 @@
-import { PRODUCTS } from "@/constants/products";
+import { BEST_SELLERS, PRODUCTS } from "@/constants/products";
 import Container from "../layout/Container";
 import HeadingSection from "../shard/HeadingSection";
 import { ProductCard } from "./poduct-card";
@@ -13,7 +13,7 @@ const BestSelling = () => {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 justify-center">
-        {PRODUCTS.slice(0, 4).map((product) => (
+        {BEST_SELLERS.map((product) => (
           <div className="min-w-[250px] ">
             <ProductCard key={product.id} product={product} />
           </div>
