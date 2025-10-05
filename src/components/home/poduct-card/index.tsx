@@ -1,4 +1,3 @@
-// import Gamepad from "@/assets/images/products/gamepad.png";
 import Badge from "@/components/Badge";
 import EYE from "@/assets/icons/eye.png";
 import Heart from "@/assets/icons/heart-small.png";
@@ -13,8 +12,8 @@ interface ProductCardProps {
     rating: number;
     reviews: number;
     image: string;
-    discount?: number;
-    isNew?: boolean;
+    discount?: number | null;
+    isNew?: boolean | null;
   };
 }
 

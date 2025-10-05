@@ -1,6 +1,6 @@
 import Container from "../layout/Container";
 import HeadingSection from "../shard/HeadingSection";
-import { PRODUCTS } from "@/constants/products";
+import { EXPLORE } from "@/constants/products";
 import { ProductCard } from "./poduct-card";
 import Button from "../ui/buttons/Button";
 
@@ -14,7 +14,7 @@ const ExploreProducts = () => {
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 justify-items-center">
-        {PRODUCTS.slice(0, 8).map((product) => (
+        {EXPLORE.slice(0, 8).map((product) => (
           <div className="min-w-[250px] ">
             <ProductCard key={product.id} product={product} />
           </div>
