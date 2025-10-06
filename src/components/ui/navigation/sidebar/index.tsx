@@ -9,7 +9,7 @@ const Sidebar = () => {
           <a
             key={category}
             href="#"
-            className="font-poppins flex items-center justify-between text-base hover:text-secondary2 transition-colors"
+            className="font-poppins flex items-center justify-between text-base hover:text-secondary-2 transition-colors"
           >
             {category}
             {(category === "Woman's Fashion" ||
