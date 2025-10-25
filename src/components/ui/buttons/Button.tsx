@@ -1,36 +1,44 @@
-import type { ButtonHTMLAttributes } from 'react';
-import clsx from 'clsx';
+import type { ButtonHTMLAttributes } from "react";
+import clsx from "clsx";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant?: 'primary' | 'secondary' | 'danger';
-  size?: 'sm' | 'md' | "icon" | 'lg';
+  variant?: "primary" | "secondary" | "danger" | "outline";
+  size?: "sm" | "md" | "icon" | "lg";
 };
 
 const Button: React.FC<ButtonProps> = ({
   children,
-  variant = 'primary',
-  size = 'md',
+  variant = "primary",
+  size = "md",
   className,
   ...props
 }) => {
-  const baseStyles = 'font-semibold rounded transition-colors focus:outline-none';
+  const baseStyles =
+    "font-semibold rounded transition-colors focus:outline-none";
 
   const variantStyles = {
-    primary: 'bg-secondary-2 text-white hover:bg-red-400',
-    secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300',
-    danger: 'bg-red-500 text-white hover:bg-red-600',
+    primary: "bg-secondary-2 text-white hover:bg-red-400",
+    secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
+    danger: "bg-btn-2 text-white hover:bg-red-500",
+    outline:
+      "border bg-transparent border-gray-400 text-gray-800 hover:bg-gray-100",
   };
 
   const sizeStyles = {
-    sm: 'px-3 py-1 text-sm',
-    md: 'px-4 py-2 text-base',
-    icon: 'px-2.5 py-2.5 rounded-full',
-    lg: 'px-6 py-3 text-lg',
+    sm: "px-3 py-1 text-sm",
+    md: "px-4 py-2 text-base",
+    icon: "px-2.5 py-2.5 rounded-full",
+    lg: "px-6 py-3 text-lg",
   };
 
   return (
     <button
-      className={clsx(baseStyles, variantStyles[variant], sizeStyles[size], className)}
+      className={clsx(
+        baseStyles,
+        variantStyles[variant],
+        sizeStyles[size],
+        className
+      )}
       {...props}
     >
       {children}
